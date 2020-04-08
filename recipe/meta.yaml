@@ -1,18 +1,18 @@
 {% set name = "pytest-icdiff" %}
-{% set version = "0.3" %}
+{% set version = "0.4" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: af5665885da9ef9a55bc9b14e63a0623f8cb50e0aa78fe60b31c36a68a33d767
+  sha256: fedfddeaec1921f49c7edd4e2d3f5a584c0c13fb0d15c06a4d7e0b5542b63e35
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
 requirements:
   host:
