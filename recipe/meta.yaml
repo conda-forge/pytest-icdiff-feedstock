@@ -31,8 +31,8 @@ test:
 
 about:
   home: https://github.com/hjwp/pytest-icdiff
-  license: GNU General Public v3
-  license_family: GPL3
+  license: The Unlicense
+  license_family: Unlicense
   license_file: LICENSE
   summary: use icdiff for better error messages in pytest assertions
 
