@@ -1,11 +1,11 @@
-About pytest-icdiff
-===================
+About pytest-icdiff-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-icdiff-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/hjwp/pytest-icdiff
 
 Package license: Unlicense
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-icdiff-feedstock/blob/main/LICENSE.txt)
 
 Summary: use icdiff for better error messages in pytest assertions
 
