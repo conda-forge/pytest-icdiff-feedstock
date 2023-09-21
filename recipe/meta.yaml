@@ -1,5 +1,5 @@
 {% set name = "pytest-icdiff" %}
-{% set version = "0.7" %}
+{% set version = "0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1cec1d7906ece36403223127e0f4bf8f7594ba86e4ce8a0828cdcf09551b1938
+  sha256: 4f493ae5ee63c8e90e9f96d4b0b2968b19634dfed8a6e3c9848fcd0d6cadcf7b
 
 build:
   noarch: python
@@ -17,13 +17,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools
   run:
     - icdiff
     - pprintpp
     - pytest
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
