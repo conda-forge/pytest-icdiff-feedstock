@@ -1,5 +1,5 @@
 {% set name = "pytest-icdiff" %}
-{% set version = "0.8" %}
+{% set version = "0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4f493ae5ee63c8e90e9f96d4b0b2968b19634dfed8a6e3c9848fcd0d6cadcf7b
+  sha256: 13aede616202e57fcc882568b64589002ef85438046f012ac30a8d959dac8b75
 
 build:
   noarch: python
